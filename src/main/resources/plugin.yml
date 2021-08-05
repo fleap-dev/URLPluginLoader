@@ -1,0 +1,12 @@
+name: URLPluginLoader
+version: 0.1-SNAPSHOT
+main: dev.fleap.urlpluginloader.Main
+api-version: 1.12
+authors: [ Fleap ]
+description: Load plugins from urls
+website: https://fleap.dev
+commands:
+  loadplugin:
+    permission: networkpluginloader.loadplugin
+    description: Load a plugin from given URL
+    usage: /<command> <url>
